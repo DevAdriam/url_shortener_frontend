@@ -1,6 +1,5 @@
 import type React from "react";
 import { useState } from "react";
-import axios from "axios";
 import { shortenURL } from "../services/url.service";
 
 const UrlShortener: React.FC = () => {
